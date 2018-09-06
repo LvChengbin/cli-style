@@ -1,0 +1,32 @@
+{
+  "name": "cli-style",
+  "version": "0.0.0",
+  "description": "A simple tool allows you to set styles to command line output more easier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LvChengbin/cli-style.git"
+  },
+  "keywords": [
+    "chalk",
+    "ansi",
+    "style",
+    "cli",
+    "command",
+    "console",
+    "color",
+    "output"
+  ],
+  "author": "LvChengbin <lvchengbin59@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LvChengbin/cli-style/issues"
+  },
+  "homepage": "https://github.com/LvChengbin/cli-style#readme",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
