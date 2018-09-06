@@ -1,6 +1,6 @@
 {
   "name": "cli-style",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple tool allows you to set styles to command line output more easier.",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/LvChengbin/cli-style#readme",
   "dependencies": {
+    "@lvchengbin/is": "0.0.22",
+    "@lvchengbin/kit": "0.0.2",
     "chalk": "^2.4.1"
   }
 }
