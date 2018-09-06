@@ -1,6 +1,6 @@
 const chalk = require( 'chalk' );
 
-module.exports.style = ( str, style = {} ) => {
+module.exports = ( str, style = {} ) => {
     let c = chalk;
     if( style.color ) {
         c = c.keyword( style.color );
