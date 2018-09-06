@@ -1,6 +1,6 @@
 {
   "name": "cli-style",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple tool allows you to set styles to command line output more easier.",
   "main": "index.js",
   "scripts": {

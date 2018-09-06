@@ -23,19 +23,19 @@ module.exports = ( str, style = {} ) => {
         c = c.underline;
     }
 
-    if( c.bold ) {
+    if( style.bold ) {
         c = c.bold;
     }
 
-    if( c.italic ) {
+    if( style.italic ) {
         c = c.italic;
     }
 
-    if( c.strikethrough ) {
+    if( style.strikethrough ) {
         c = c.strikethrough;
     }
 
-    if( c.dim ) {
+    if( style.dim ) {
         c = c.dim;
     }
 
