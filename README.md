@@ -1,5 +1,7 @@
 # cli-style
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LvChengbin/cli-style.svg)](https://greenkeeper.io/)
+
 A simple tool allows you to set styles to command line output more easier.
 
 # Installation
