@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/LvChengbin/cli-style#readme",
   "dependencies": {
-    "@lvchengbin/is": "0.0.22",
+    "@lvchengbin/is": "0.0.24",
     "@lvchengbin/kit": "0.0.2",
     "chalk": "^2.4.1"
   }
