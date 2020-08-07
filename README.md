@@ -61,5 +61,5 @@ for( const item of styles ) {
 }
 ```
 
-<img src="https://raw.githubusercontent.com/LvChengbin/cli-style/master/screenshot.png" width="500" />
+<img src="https://raw.githubusercontent.com/LvChengbin/cli-style/master/screenshot.png" />
 

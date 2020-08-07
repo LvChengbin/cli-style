@@ -1,8 +1,9 @@
 {
     "name": "cli-style",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "A simple tool allows you to set styles to command line output more easier.",
     "main": "dist/index.js",
+    "files" : [ "dist" ],
     "scripts": {
         "build": "tsc --declaration",
         "build:watch": "tsc --watch",
