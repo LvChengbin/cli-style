@@ -1,34 +1,40 @@
 {
-  "name": "cli-style",
-  "version": "0.0.3",
-  "description": "A simple tool allows you to set styles to command line output more easier.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LvChengbin/cli-style.git"
-  },
-  "keywords": [
-    "chalk",
-    "ansi",
-    "style",
-    "cli",
-    "command",
-    "console",
-    "color",
-    "output"
-  ],
-  "author": "LvChengbin <lvchengbin59@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/LvChengbin/cli-style/issues"
-  },
-  "homepage": "https://github.com/LvChengbin/cli-style#readme",
-  "dependencies": {
-    "@lvchengbin/is": "0.0.24",
-    "@lvchengbin/kit": "0.0.2",
-    "chalk": "^2.4.1"
-  }
+    "name": "cli-style",
+    "version": "0.0.4",
+    "description": "A simple tool allows you to set styles to command line output more easier.",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc --declaration",
+        "build:watch": "tsc --watch",
+        "test": "ts-node test/index.spec.ts",
+        "lint": "eslint src/**/*.ts --cache --ignore-path .eslintignore"
+    },
+    "repository": "git+https://github.com/LvChengbin/cli-style.git",
+    "keywords": [
+        "chalk",
+        "ansi",
+        "style",
+        "cli",
+        "command",
+        "console",
+        "color",
+        "output"
+    ],
+    "author": "LvChengbin <lvchengbin59@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/LvChengbin/cli-style/issues"
+    },
+    "homepage": "https://github.com/LvChengbin/cli-style#readme",
+    "dependencies": {
+        "chalk": "^4.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^14.0.27",
+        "@typescript-eslint/eslint-plugin": "^3.8.0",
+        "@typescript-eslint/parser": "^3.8.0",
+        "eslint": "^7.6.0",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.7"
+    }
 }

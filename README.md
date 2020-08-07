@@ -15,12 +15,51 @@ This gadget is based on [chalk](https://github.com/chalk/chalk), and `color`, `b
 ```js
 const style = require( 'cli-style' );
 
-const str = style( 'this is a green bold string with an underline in white background', {
-    color : 'green',
+const styles = [ {
+    color : 'red',
+    bg : 'white',
     bold : true,
+    italic : true,
+    strikethrough : true,
+    underline : true
+}, {
+    color : 'red',
+    bg : 'white',
+    bold : true,
+    italic : true,
+    strikethrough : true,
     underline : true,
-    bg : '#FFFFFF'
-} );
+    dim : true
+}, {
+    color : '#FF0000',
+    bg : '#FFFFFF',
+    bold : true,
+    italic : true,
+    strikethrough : true,
+    underline : true,
+    dim : true
+}, {
+    color : 'rgb( 123, 24, 64 )',
+    bg : 'hsl( 32, 100, 50 )',
+    bold : true,
+    italic : true,
+    strikethrough : true,
+    underline : true,
+    dim : true
+}, {
+    color : 'hsv(32, 100, 100)',
+    bg : 'hwb(32, 0, 50)',
+    bold : true,
+    italic : true,
+    strikethrough : true,
+    underline : true,
+    dim : true
+} ];
 
-console.log( str );
+for( const item of styles ) {
+    console.log( style( JSON.stringify( item ), item ) );
+}
 ```
+
+<img src="https://raw.githubusercontent.com/LvChengbin/cli-style/master/screenshot.png" width="500" />
+
