@@ -1,9 +1,11 @@
 {
     "name": "cli-style",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A simple tool allows you to set styles to command line output more easier.",
     "main": "dist/index.js",
-    "files" : [ "dist" ],
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "tsc --declaration",
         "build:watch": "tsc --watch",
@@ -31,11 +33,11 @@
         "chalk": "^4.1.0"
     },
     "devDependencies": {
-        "@types/node": "^14.0.27",
-        "@typescript-eslint/eslint-plugin": "^3.8.0",
-        "@typescript-eslint/parser": "^3.8.0",
-        "eslint": "^7.6.0",
-        "ts-node": "^8.10.2",
-        "typescript": "^3.9.7"
+        "@types/node": "^14.6.4",
+        "@typescript-eslint/eslint-plugin": "^4.1.0",
+        "@typescript-eslint/parser": "^4.1.0",
+        "eslint": "^7.8.1",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.2"
     }
 }
