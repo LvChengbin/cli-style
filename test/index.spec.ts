@@ -7,9 +7,9 @@
  * Description: 
  ******************************************************************/
 
-import style from '../src';
+import style, { StyleOptions } from '../src';
 
-const styles = [ {
+const styles: StyleOptions[] = [ false, {
     color : 'red',
     bg : 'white',
     bold : true,
@@ -49,6 +49,8 @@ const styles = [ {
     underline : true,
     dim : true
 } ];
+
+console.log( style( 'Print the original string' ) );
 
 for( const item of styles ) {
     console.log( style( JSON.stringify( item ), item ) );

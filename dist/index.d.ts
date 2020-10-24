@@ -14,6 +14,14 @@ export declare type StyleOptions = {
     strikethrough?: boolean;
     dim?: boolean;
     bg?: string;
-};
-declare const _default: (str: string, style: StyleOptions) => string;
+} | false;
+declare const _default: (str: string, style?: false | {
+    color?: string | undefined;
+    underline?: boolean | undefined;
+    bold?: boolean | undefined;
+    italic?: boolean | undefined;
+    strikethrough?: boolean | undefined;
+    dim?: boolean | undefined;
+    bg?: string | undefined;
+} | undefined) => string;
 export default _default;

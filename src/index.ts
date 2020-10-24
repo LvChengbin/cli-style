@@ -49,9 +49,11 @@ export type StyleOptions = {
     strikethrough?: boolean;
     dim?: boolean;
     bg?: string;
-}
+} | false;
 
-export default ( str: string, style: StyleOptions ): string => {
+export default ( str: string, style?: StyleOptions ): string => {
+    if( !style ) return str;
+
     let c: any = chalk;
 
     if( style.color ) {

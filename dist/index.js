@@ -39,6 +39,8 @@ function chalkColorMethod(color, prefix = '') {
     return [prefix ? `${prefix}Keyword` : 'keyword', [color]];
 }
 exports.default = (str, style) => {
+    if (!style)
+        return str;
     let c = chalk_1.default;
     if (style.color) {
         const [method, args] = chalkColorMethod(style.color);
